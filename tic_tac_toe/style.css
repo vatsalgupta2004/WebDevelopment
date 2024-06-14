@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*:hover{
+    cursor:pointer;
+}
+body{
+    background-color: rgb(6, 25, 44);
+}
+
+#head{
+    width: 99.00vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#head h2{
+    color: rgb(221, 207, 48);
+    font-size: 80px;
+    font-weight: 900;
+    transition: all 3s steps(1000);
+}
+#outest_box_most{
+    width: 99.47vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#outest_box{
+    background-color: rgb(42, 79, 149);
+    height: 385px;
+    width: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 234, 0);
+}
+#box_outer{
+    height: 365px;
+    width: 345px;
+    background-color: rgba(52, 47, 17,1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px double rgb(255, 234, 0);
+}
+.box{
+    background-color: rgb(196, 159, 113);
+    height: 110px;
+    width: 103px;
+    margin: 0px 4px 0px 4px;
+    display: flex;
+    color: rgb(42, 79, 149);
+    font-size: 100px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: 2px solid;
+    transition: all 3s ease-in;
+}
+.reset{
+    height: 60px;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn1{
+    background-color: rgb(4, 70, 145);
+    font-size: 30px;
+    color: rgb(255, 234, 0);
+    width: 110px;
+    height: 50px;
+    border: 2px solid rgb(255, 234, 0);
+    border-radius: 50px;
+}
+.btn2{
+    background-color: rgb(4, 70, 145);
+    font-size: 30px;
+    color: rgb(255, 234, 0);
+    width: 170px;
+    height: 50px;
+    border: 2px solid rgb(255, 234, 0);
+    border-radius: 50px;
+}
+#playersign{
+    height: 150px;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 234, 0);
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#playersign2{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    border: 4px double red;
+    justify-content:center;
+    align-items:center;
+    color: rgb(255, 234, 0);
+    font-size: 22px;
+    font-weight: bolder;
+}
+#boradtop{
+    border: 2px dotted red;
+    height: 30px;
+    width: 89%;
+    color: rgb(255, 183, 0);
+    font: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list_player2{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    row-gap: 10px;
+}
